@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    img{
+        width: 200px;
+        padding: 10px 30px;
+    }
+    nav{
+       background-color: blue; 
+       padding: 40px 20px;
+
+    }
+}
+img{
+    width: 500px;
+}
+footer{
+    background-color: green;
+}
+
