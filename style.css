@@ -6,7 +6,7 @@ header{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: rgb(255, 40, 40);
     img{
         width: 200px;
         padding: 10px 30px;
