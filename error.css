@@ -1,0 +1,10 @@
+body{
+    font-size: 5rem;
+    margin: 0 10%;
+    min-height: 100vh;
+    background-color: black;
+    color:aliceblue;
+    a{
+        color: inherit;
+    }
+}
