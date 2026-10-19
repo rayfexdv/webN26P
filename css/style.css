@@ -3,6 +3,10 @@ body{
     color: white;
 }
 header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -13,11 +17,19 @@ header{
     }
     nav{
        background-color: blue; 
+       a{
+        color: antiquewhite;
+       }
        padding: 40px 20px;
 
     }
 }
 footer{
     background-color: green;
+    min-height: 120px;
 }
-
+.btn-wpp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamientos</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            background-color: rgba(177, 255, 255, 0.7);
+            height: 30dvh;
+            border: solid 3px gray;
+        }
+        header > * {
+            background-color: rgb(163, 214, 255);
+            top: 20%;
+            padding: 1rem;
+        }
+        header h1{
+            position:fixed;
+            left: 5%;
+        }
+        header h2{
+            position: absolute;
+            right: 5%;
+        }
+        #ej2 {
+            position: sticky;
+            top: 5%;
+            left: 5%;
+            width: 80%;
+        }
+        #ej4 {
+            position: sticky;
+            bottom: 5%;
+            width: 60%;
+            margin: 0 auto;
+        }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Fixed</h1>
+        <h2>Absolute</h2>
+    </header>
+    <main>
+        <div id="ej0"></div>
+        <div id="ej1"><h2>Ejemplo 1</h2></div>
+        <div id="ej2">
+            <h2>Tipico texto para hacer espacio, A.K.A. ej2</h2>
+        </div>
+        <div id="ej3"><h2>Ejemplo 3</h2></div>
+        <div id="ej4"><h2>Ejemplo 4</h2></div>
+        <div id="ej5"><h2>Ejemplo 5</h2></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>
