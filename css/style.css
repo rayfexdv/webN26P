@@ -1,6 +1,16 @@
+@font-face {
+    font-family: 'pixel';
+    src: url(../fonts/PixelGamer-Regular.otf);
+}
 body{
     background-color: black;
     color: white;
+    main{
+        h1{
+            font-family: 'pixel';
+            font-size: 3rem;
+        }
+    }
 }
 header{
     position: sticky;
