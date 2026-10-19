@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex; /*Si divido en 7 partes*/
+    flex-direction: column;
+}
+main{
+    flex: 6; /*asigno 6 partes*/
+}
+footer{
+    flex: 1; /*asigno 1 partes*/
+}
